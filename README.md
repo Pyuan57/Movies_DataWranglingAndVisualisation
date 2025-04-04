@@ -42,3 +42,13 @@ Follow these steps to run the notebook and explore the full project.
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+
+### 2. Open with Anaconda (Jupyter Notebook)
+
+Make sure you have [Anaconda](https://www.anaconda.com/products/distribution) installed.
+
+Launch Jupyter Notebook via terminal or Anaconda Navigator:
+
+```bash
+jupyter notebook
+
