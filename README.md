@@ -37,18 +37,60 @@ This dataset provides a rich source of information for analyzing various aspects
 
 Follow these steps to run the notebook and explore the full project.
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+### 1. Download the the dataset and ipynb files.
 
 ### 2. Open with Anaconda (Jupyter Notebook)
 
 Make sure you have [Anaconda](https://www.anaconda.com/products/distribution) installed.
+Launch Jupyter Notebook via terminal or Anaconda Navigator.
+This will open a browser window.
+Navigate to `project.ipynb` and open it.
 
-Launch Jupyter Notebook via terminal or Anaconda Navigator:
+---
 
-```bash
-jupyter notebook
+## 📊 What's Inside the Notebook?
 
+The `project.ipynb` notebook includes:
+
+### 🧹 Data Wrangling
+- Reading and inspecting `movies.csv`
+- Handling missing values
+- Converting data types
+- Cleaning and standardizing columns
+- Removing duplicates
+
+### 📈 Data Visualization & EDA
+- Histograms and distribution plots for numerical features
+- Scatter plots (e.g., Budget vs Gross, Score vs Votes)
+- Box plots and bar charts for categorical data
+- Correlation heatmaps
+- Aggregation using `groupby` (e.g., average gross by genre or year)
+
+### 💬 Discussion
+- Summary of findings
+- Analysis of trends and outliers
+- Relationships between variables like budget, gross, score, and runtime
+- Potential data limitations and ideas for future work
+
+---
+
+## 🛠 Requirements
+
+You can install all required libraries using pip:
+
+pip install pandas numpy matplotlib seaborn
+
+Or use a conda environment with Jupyter pre-installed.
+
+---
+
+## 🧠 Purpose of the Project
+
+We selected this dataset because of its variety of numerical and categorical data, which allows for in-depth data wrangling and visualization. It serves as a solid foundation for practicing exploratory data analysis (EDA) and storytelling with data.
+
+---
+
+## 📌 License & Credits
+
+- **Dataset by:** [Daniel Grijalva on Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)  
+- **Purpose:** Educational / Data Science practice  
